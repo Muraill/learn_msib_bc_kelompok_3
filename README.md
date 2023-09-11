@@ -1,2 +1,5 @@
 # learn_msib_bc_kelompok_3
-Repository pembelajaran MSIB Blockchain Developer
+
+Nama    : Muhammad Raihanda Ilham
+Alamat  : Bekasi, Jawa Barat
+Email   : 202010225095@mhs.ubharajaya.ac.id/raihandailham03@gmail.com
