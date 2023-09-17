@@ -24,6 +24,45 @@ console.log('umur saya saat ini adalah', umur)
 // umur = 17
 // console.log('umur saya setelah dirubah adalah', umur)
 
+//tipe data object & array
+// Object adalah type data yang memiliki key dan dapat menampung berbagai type data di dalam satu waktu
+// contoh type data object seperti dibawah ini.
+let object1 = {
+    key:'key',
+    nomor: 1,
+    object_ortu :{
+        key:'key ortu',
+        nomor_ortu:'nomor orang tua'
+    }
+}
+console.log('Tampilkan objek :', object1)
+
+//Array merupakan struktur data yang dapat menyimpan kumpulan data dengan type yang sama maupun berbeda-beda, index dari array selalu dimulai dari 0
+//terdapat array satu dimensi maupun array multi dimensi
+//contoh penerapan array satu dimensi sebagai berikut
+let arrayku = [
+    'A','B', '🍔', '🍟', '🍕', 6, 7, true, false, {"key": "value"}
+]
+
+console.log('Menampilkan Array Satu Dimensi : ', arrayku)
+
+//contoh penerapan array multi dimensi sebagai berikut
+let multiArray = [
+    ['Pizza', '🍕'],
+    ['kentang', '🍟'],
+    ['roti', '🍞'],
+    ['keju', '🧀']
+]
+
+console.log("Menampilkan Array Dimensi ke-1 : ", multiArray[0])
+console.log("Menampilkan Array Dimensi ke-2 : ", multiArray[1])
+console.log("Menampilkan Array Dimensi ke-3 : ", multiArray[2])
+console.log("Menampilkan Array Dimensi ke-4 : ", multiArray[3])
+console.log("Menampilkan Array Multi Dimensi : ", multiArray)
+
+
+
+
 
 //if else condition digunakan untuk mencari suatu kondisi yang diinginkan.
 
