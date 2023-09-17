@@ -3,14 +3,24 @@
 let namaDepan = 'Raihanda'
 var namaBelakang = 'ilham'
 
+console.log('----------------------------------------------------------------------------------------------------')
 console.log('Nama lengkap saya menggunakan nilai default variabelnya adalah', namaDepan, namaBelakang)//Nilai yang ditampilkan menggunakan nilai defaultnya
 
 namaDepan = 'Muhammad Raihanda'//perubahan pada nilai default
 
+console.log('----------------------------------------------------------------------------------------------------')
+
+
 console.log('Nama lengkap saya setelah memgubah nilai defaultnya adalah', namaDepan, namaBelakang)//Nama yang ditampilkan setelah mengubah nilai default
+
+console.log('----------------------------------------------------------------------------------------------------')
+
 
 namaPanjang = namaDepan, namaBelakang 
 console.log('Nama panjang saya adalah ', namaPanjang)
+
+console.log('----------------------------------------------------------------------------------------------------')
+
 
 
 
@@ -19,6 +29,9 @@ console.log('Nama panjang saya adalah ', namaPanjang)
 
 const umur = 21
 console.log('umur saya saat ini adalah', umur)
+
+console.log('----------------------------------------------------------------------------------------------------')
+
 
 //jika didefinisikan menggunakan data baru maka akan terjadi error
 // umur = 17
@@ -37,6 +50,9 @@ let object1 = {
 }
 console.log('Tampilkan objek :', object1)
 
+console.log('----------------------------------------------------------------------------------------------------')
+
+
 //Array merupakan struktur data yang dapat menyimpan kumpulan data dengan type yang sama maupun berbeda-beda, index dari array selalu dimulai dari 0
 //terdapat array satu dimensi maupun array multi dimensi
 //contoh penerapan array satu dimensi sebagai berikut
@@ -45,6 +61,9 @@ let arrayku = [
 ]
 
 console.log('Menampilkan Array Satu Dimensi : ', arrayku)
+
+console.log('----------------------------------------------------------------------------------------------------')
+
 
 //contoh penerapan array multi dimensi sebagai berikut
 let multiArray = [
@@ -60,8 +79,7 @@ console.log("Menampilkan Array Dimensi ke-3 : ", multiArray[2])
 console.log("Menampilkan Array Dimensi ke-4 : ", multiArray[3])
 console.log("Menampilkan Array Multi Dimensi : ", multiArray)
 
-
-
+console.log('----------------------------------------------------------------------------------------------------')
 
 
 //if else condition digunakan untuk mencari suatu kondisi yang diinginkan.
@@ -82,6 +100,8 @@ if(umur >= 60){
 }else{
     console.log('Saya Masih Anak-anak')//Jika umur lebih kecil dari 12 maka termasuk sudah dewasa
 }
+
+console.log('----------------------------------------------------------------------------------------------------')
 
 
 //switch case hampir sama dengan if else namun pengkondisiannya hanya menggunakan karakter dan integer.
@@ -112,6 +132,8 @@ switch(hari){
         console.log('Hari yang anda masukan salah, silahkan coba lagi.')//Jika input hari lebih besar dari 7 maka salah pengisian hari.
 }
 
+console.log('----------------------------------------------------------------------------------------------------')
+
 //Perulangan digunakan untuk mengeksekusi statement program di dalam block perulangan secara berulang-ulang
 //terdapat beberapa macam perulangan contohnya : for loop, while loop, do while loop
 
@@ -121,6 +143,9 @@ for (i = 1; i <= 5 ; i++){
     console.log('Perulangan ke-', i, 'dengan for loop')
 }
 
+console.log('----------------------------------------------------------------------------------------------------')
+
+
 //contoh perulangan while loop seperti dibawah ini
 let j = 1
 while(j <= 5){
@@ -129,9 +154,43 @@ while(j <= 5){
     j++
 }
 
+console.log('----------------------------------------------------------------------------------------------------')
+
+
 //contoh perulangan do while seperti dibawah ini
 let k = 5
 do{
     console.log('Perulangan ke-', k, 'dengan do while loop')
     k--
 }while(k >= 1)
+
+console.log('----------------------------------------------------------------------------------------------------')
+
+
+
+// Fungsi adalah sub-program yang bisa digunakan kembali baik di dalam program itu sendiri, maupun di program yang lain.
+
+// contoh fungsi dengan menggunakan parameter
+function hitungString(string) {
+    //block function
+    const panjang_string = string.length
+    console.log('Panjang Parameter String adalah: ', panjang_string)
+}
+
+//Pemanggilan function hitung string
+hitungString('test 1 2 3')
+
+console.log('----------------------------------------------------------------------------------------------------')
+
+//contoh function tanpa menggunakan parameter
+function luasPersegiPanjang(){
+    const panjang = 55
+    const lebar = 20
+
+    console.log('Luas Persegi Panjang : ', panjang * lebar) 
+}
+
+luasPersegiPanjang()
+
+console.log('----------------------------------------------------------------------------------------------------')
+
