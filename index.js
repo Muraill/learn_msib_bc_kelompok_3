@@ -112,4 +112,26 @@ switch(hari){
         console.log('Hari yang anda masukan salah, silahkan coba lagi.')//Jika input hari lebih besar dari 7 maka salah pengisian hari.
 }
 
+//Perulangan digunakan untuk mengeksekusi statement program di dalam block perulangan secara berulang-ulang
+//terdapat beberapa macam perulangan contohnya : for loop, while loop, do while loop
 
+//contoh penerapan for loop seperti dibawah ini 
+for (i = 1; i <= 5 ; i++){
+    //block perulangan
+    console.log('Perulangan ke-', i, 'dengan for loop')
+}
+
+//contoh perulangan while loop seperti dibawah ini
+let j = 1
+while(j <= 5){
+    //block perulangan
+    console.log('Perualangan ke-', j,'dengan while loop')
+    j++
+}
+
+//contoh perulangan do while seperti dibawah ini
+let k = 5
+do{
+    console.log('Perulangan ke-', k, 'dengan do while loop')
+    k--
+}while(k >= 1)
